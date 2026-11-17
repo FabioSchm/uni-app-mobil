@@ -1,6 +1,6 @@
-// Service Worker der Uni App (erzeugt beim Bauen, Version mvy8qr9n)
-const CACHE = 'uni-app-mvy8qr9n';
-const KERN = ["./","./index.html","./manifest.webmanifest","./assets/index-C9CpQc2g.css","./assets/index-DML58Mm-.js"];
+// Service Worker der Uni App (erzeugt beim Bauen, Version mwkxrmtg)
+const CACHE = 'uni-app-mwkxrmtg';
+const KERN = ["./","./index.html","./manifest.webmanifest","./assets/index-BSJuvQ-o.css","./assets/index-CsEgqOpk.js"];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(KERN)).then(() => self.skipWaiting()));
 });
